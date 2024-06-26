@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #333;
+}
+
+.text-colored {
+    color: #e83e8c;
+}
+
+#cabecalho {
+    background-color: #fff;
+    border-bottom: 2px solid #e83e8c;
+}
+
+#cabecalho .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: #e83e8c;
+    font-size: 2rem;
+}
+
+.nav-pills .nav-link {
+    color: #333;
+    background-color: #f8f9fa;
+    border: 1px solid #e83e8c;
+    margin-bottom: 5px;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #e83e8c;
+    color: #fff;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #e83e8c;
+    color: #fff;
+}
+
+.carousel-indicators .active {
+    background-color: #e83e8c;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+#sobre {
+    background-color: #fff;
+    border-bottom: 2px solid #e83e8c;
+}
+
+#sobre .section-title {
+    margin-bottom: 2rem;
+}
+
+#menu .section-title {
+    margin-bottom: 2rem;
+}
+
+.list-group-item {
+    font-size: 1.2rem;
+    border: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+#fale-conosco .form-control,
+#fale-conosco .btn {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#fale-conosco .btn-primary {
+    background-color: #e83e8c;
+    border-color: #e83e8c;
+}
+
+#fale-conosco .btn-primary:hover {
+    background-color: #d63384;
+    border-color: #d63384;
+}

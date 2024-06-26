@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão da Adri</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">SALÃO DA ADRI</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i> Sobre o salão</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1">Promoções</i></a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>Nosso cardápio</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i> Entre em contato conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="salao_espaco/salao_espaco.png" alt="Foto do espaço" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="salao_espaco/salao_espaco2.webp" alt="Foto do espaço 2" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="salao_espaco/salao_espaco3.png" alt="Foto do espaço 3" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="salao_espaco/fachada-de-salao-de-beleza.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o salão</span></h2>
+                            <p>Nosso salão oferece um ambiente acolhedor e sofisticado, ideal para cuidar da sua beleza e bem-estar. Disponibilizamos serviços completos de nails, design de sobrancelha, maquiagem e massagem. Nossas manicures e pedicures são especialistas em técnicas modernas, garantindo unhas impecáveis e saudáveis. As maquiadoras proporcionam looks deslumbrantes para todas as ocasiões. Além disso, oferecemos sessões de massagem relaxante para revitalizar corpo e mente. Venha nos visitar e desfrutar de uma experiência de beleza completa.</p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>Nosso espaço é projetado para oferecer conforto e acolhimento excepcionais. Com uma decoração moderna e ambiente cuidadosamente planejado, proporcionamos uma experiência relaxante e agradável. Cada detalhe foi pensado para criar um ambiente que convida ao bem-estar e à tranquilidade. Venha desfrutar de momentos especiais em um espaço que combina elegância com conforto, ideal para cuidar de si mesmo com estilo.</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="ocasioes/aniversario.jfif" alt="Aniversários" class="d-block w-100 rounded mb-2" style="height: 300px; object-fit: cover;">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i> Aniversários
+                        </h3>
+                        <p>🎉🎂 Celebre seu aniversário conosco e aproveite uma promoção especial! Venha desfrutar de momentos inesquecíveis em nosso espaço acolhedor. Reserve agora e faça deste dia ainda mais especial! 🎈</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="ocasioes/casamento.jpg" alt="casamentos" class="d-block w-100 rounded mb-2" style="height: 300px; object-fit: cover;">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i> Casamentos
+                        </h3>
+                        <p>👰🤵‍♂️ Surpreenda-se com nossa promoção especial para casamentos! Descubra um ambiente acolhedor e serviços personalizados para tornar seu grande dia ainda mais memorável. Reserve conosco e celebre o amor de uma maneira única! 💍🎉</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="ocasioes/sao joao.webp" alt="Especial dia de são joão" class="d-block w-100 rounded mb-2" style="height: 300px; object-fit: cover;">
+                        <h3 class="section-title text-colored">
+                            <i class="bi bi-people-fill"></i> Especial Dia de São João
+                        </h3>
+                        <p>🌺✨ Embeleze-se neste São João conosco! Aproveite nossa promoção especial para maquiagem e penteados juninos. Transforme-se com nossos serviços de beleza e entre no clima festivo com estilo e elegância. Não perca essa oportunidade de brilhar! 💄🌼</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso <span class="text-colored">cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#manicure" class="fw-bold text-start nav-link text-colored active">Manicure</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pedicure" class="fw-bold text-start nav-link text-colored">Pedicure</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#maquiagem" class="fw-bold text-start nav-link text-colored">Maquiagem</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobrancelha" class="fw-bold text-start nav-link text-colored">Sobrancelha</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cabelos" class="fw-bold text-start nav-link text-colored">Cabelos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="manicure">
+                                <h3 class="section-title text-colored">Manicure</h3>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="Manicure/unhadamao.jpg" alt="Unha da Mão" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Nails design</h5>
+                                        <p>Descubra a beleza de unhas impecáveis! Nossos especialistas em manicure e pedicure oferecem serviços de alta qualidade para garantir que suas unhas estejam sempre bem cuidadas, elegantes e perfeitas para qualquer ocasião.</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="Manicure/unhadamao2.jpg" alt="Unha da Mão2" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Nails design</h5>
+                                        <p>Deixe suas unhas lindas e brilhantes! Nossos especialistas em manicure e pedicure utilizam técnicas avançadas e produtos de alta qualidade para garantir que suas unhas fiquem deslumbrantes, bem cuidadas e com um brilho impecável.</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="Manicure/unhadamao3.JPG" alt="Unha da Mão3" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Nails design</h5>
+                                        <p>Deixe suas unhas deslumbrantes com o tom verde esmeralda, que atrai até peixes! Nossos especialistas utilizam essa cor vibrante e elegante para dar às suas unhas um destaque único e encantador, fazendo você brilhar como uma sereia.</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="Manicure/unhasdamao4.jpg" alt="Unha da Mão3" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Nails design</h5>
+                                        <p>Está preparada para o Halloween? Se não, nós te preparamos! Deixe nossos especialistas transformarem seu visual com maquiagens criativas, penteados temáticos e unhas assustadoramente incríveis.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pedicure">
+                                <h3 class="section-title text-colored">Pedicure</h3>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="pedicure/pe1.jpg" alt="pe1" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Roxo com Glitter</h5>
+                                        <p>Nossos especialistas transformam suas unhas com essa cor vibrante e cintilante, garantindo um visual único e cheio de brilho. Dê um toque de glamour aos seus pés e arrase mona!</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="pedicure/pe2.jpg" alt="pe2" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Artes únicas</h5>
+                                        <p>criamos arte única e exclusiva para suas unhas, garantindo um visual sofisticado e personalizado. Deixe seus pés refletirem seu estilo com elegância e criatividade.</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="pedicure/pe3.jpg" alt="pe3" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Unha de gavião</h5>
+                                        <p>Estilo gavião!
+                                             Inspirado na força e elegância</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="pedicure/pe4.jpg" alt="pe4" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Animações</h5>
+                                        <p>Explore o mundo das animações conosco! Nossa equipe especializada traz à vida personagens e histórias com técnicas avançadas e criatividade sem limites. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="maquiagem">
+                                <h3 class="section-title text-colored">Maquiagem</h3>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="maquiagem/maquiagem1.jfif" alt="make1" style="object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Antes e Depois</h5>
+                                        <p>Veja essa transformação acontecer e descubra como realçamos sua beleza de maneira única e impactante.</p>
+                                    </div>
+                            
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="maquiagem/maquiagem2,jpg.jfif" alt="make2" style="object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Deliquente a popstar</h5>
+                                        <p>De delinquente a popstar! <br/>   utilizamos técnicas avançadas para criar looks que elevam seu estilo e confiança.</p>
+                                    </div>
+                            
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="maquiagem/maquiagem3.jpg" alt="make3" style="object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Make Barbie "guél"</h5>
+                                        <p>Te transformamos até em Barbie</p>
+                                    </div>
+                            
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="maquiagem/maquiagem4.jpg" alt="make4" style="object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Maquiagem rejuvenescedora</h5>
+                                        <p>Te deixamos até 20 anos mais jovem com nosso trabalho!</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="tab-pane fade" id="cabelos">
+                                <h3 class="section-title text-colored">Cabelos</h3>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="cabelos/cabelos1.jpg" alt="cabelo1" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Mechas e luzes</h5>
+                                        <p>Com produtos de alta qualidade e uma abordagem cuidadosa, nós criamos efeitos de luz e sombra que trazem dimensão e brilho ao seu cabelo, respeitando a integridade dos fios.</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="cabelos/cabelos2.webp" alt="cabelo2" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Mechas e hidratação</h5>
+                                        <p>Para garantir que seu cabelo permaneça saudável e brilhante, combinamos o serviço de mechas com tratamentos de hidratação profunda. Nossos produtos de alta qualidade penetram nos fios, restaurando a umidade, a elasticidade e a vitalidade, deixando seu cabelo sedoso e radiante.</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="cabelos/cabelos3.png" alt="cabelo3" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Luzes e cachos</h5>
+                                        <p>Nossa equipe de estilistas experientes está pronta para transformar o seu cabelo, criando luzes que iluminam e definem seus cachos de forma natural e sofisticada.</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="cabelos/cabelos4.jpg" alt="cabelo4" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Estilo Dread</h5>
+                                        <p>Utilizamos técnicas precisas e produtos de alta qualidade para garantir que seus dreads fiquem bem definidos, saudáveis e duradouros. Seja para começar seu journey com dreads ou para manutenção e cuidados regulares, estamos aqui para atender às suas necessidades com expertise e atenção aos detalhes.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="sobrancelha">
+                                <h3 class="section-title text-colored">Design de Sobrancelha</h3>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="sobrancelha/sobrancelha1.jfif" alt="sobrancelha1" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Antes e Depois</h5>
+                                        <p>Veja o antes e o depois, com muita precisão, nossos design deixa sua sobrancelha totalmente simétrica alinhado ao seu rosto!</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="sobrancelha/sobrancelha2.jpg" alt="sobrancelha2" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Design de sobrancelha</h5>
+                                        <p>Design detalhado impecável! Venha ficar impecável também para qualquer ocasião</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="sobrancelha/sobrancelha3.jpg" alt="sobrancelha3" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Monosselhas</h5>
+                                        <p>Transformamos monosselhas em design árabe sedutor</p>
+                                    </div>
+                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fluid rounded" src="sobrancelha/sobrancelha4.jpg" alt="sobrancelha4" style="height: 250px; object-fit: cover;">
+                                        <h5 class="text-colored fw-bold mt-2">Design estilo assimétrico</h5>
+                                        <p>design perfeito com muito profissionalismo</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                            
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Seu email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" rows="3" placeholder="Sua mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="section-title">Endereço</h3>
+                        <p>Rua das linda de O<br>Bairro das feias, Cidade das bonitas</p>
+                        <h3 class="section-title">Telefone</h3>
+                        <p>(55) 1234-5678</p>
+                        <h3 class="section-title">Redes Sociais</h3>
+                        <p>
+                            <a href="#" class="text-colored"><i class="bi bi-facebook"></i> Facebook</a><br>
+                            <a href="#" class="text-colored"><i class="bi bi-instagram"></i> Instagram</a><br>
+                            <a href="#" class="text-colored"><i class="bi bi-twitter"></i> Twitter</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Salão da Adri. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
